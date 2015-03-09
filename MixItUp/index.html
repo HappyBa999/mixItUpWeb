@@ -1,0 +1,460 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head lang="zh-CN">
+		<title>Futara Website Template | Home</title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+        <meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Ĭ�����ع�����,iPhone�����������������ҳ����ˣ��?��ҳ������ء������ڼ�����ҳ��ɺ��Եú��˷ѿռ䣬�ر��Ǻ�����Ļʱ�����ǿ��������Զ��?��ȥ��-->
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--webfonts---->
+		<!--webfonts-->
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
+		</script>
+		<!--768px-menu-->
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		   <script type="text/javascript">
+				$(window).load(function(){
+					$('div.description').each(function(){
+						$(this).css('display', 'block');
+					});
+					
+					$('div.content-top-grid').hover(function(){
+						$(this).children('.description').stop().fadeTo(500, 1);
+					},function(){
+						$(this).children('.description').stop().fadeTo(500, 0);
+					});
+					
+				});
+		</script>
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+			<script type="text/javascript">
+				//	The menu on the left
+				$(function() {
+					$('nav#menu-left').mmenu();
+				});
+		</script>
+		<!--//768px-menu-->
+	</head>
+	<body>
+		
+		<!--start-768px-menu-->
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li class="active"><a href="#home">Home</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#process">Process</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#price">Price</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li class="nav-icon"><a href="#"><span> </span></a></li>
+							<div class="clear"> </div>
+						</ul>
+					</nav>
+			</div>
+		<!--start-768px-menu-->
+			
+			<div class="header">
+				<div class="wrap">
+				<!---start-logo-->
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" title="futura" /></a>
+				</div>
+				
+				
+				<div class="top-nav" id="menu-left">
+					<ul>
+						<li class="active"><a href="#home">主要</a></li>
+						<li><a href="#services">服务</a></li>
+						<li><a href="#process">关于我们</a></li>
+						<li><a href="#portfolio">员工</a></li>
+						<li><a href="#price">价格</a></li>
+						<li><a href="#contact">联系我们</a></li>
+						<li class="nav-icon"><a href="#"><span> </span></a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				
+				<div class="clear"> </div>
+			</div>
+			
+		</div>
+		
+		<div class="img-slider" id="home">
+		    <div id="fwslider">
+		        <div class="slider_container">
+		            <div class="slide">
+		                <div class="slide_content">
+		                    <div class="slide_content_wrap">
+		                        <h4 class="title">Slide01</h4>
+		                        <p class="description">111</p>
+		                        <div class="slide-btns description">
+		                        	<ul>
+		                        		<li><a class="mapbtn" href="#">11</a></li>
+		                        		<li><a class="minfo" href="#">111</a></li>
+		                        		<div class="clear"> </div>
+		                        	</ul>
+		                        	<a class="screen-divice" href="#"><img src="images/divice-screen1.png" title="divice-name" /> </a>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="slide">
+		                <div class="slide_content">
+		                    <div class="slide_content_wrap">
+		                        <h4 class="title">Slide02</h4>
+		                        <p class="description">222</p>
+		                        <div class="slide-btns description">
+		                        	<ul>
+		                        		<li><a class="mapbtn" href="#">222</a></li>
+		                        		<li><a class="minfo" href="#">222</a></li>
+		                        		<div class="clear"> </div>
+		                        	</ul>
+		                        	<a class="screen-divice" href="#"><img src="images/divice-screen1.png" title="divice-name" /> </a>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="timers"> </div>
+		        <div class="slidePrev"><span> </span></div>
+		        <div class="slideNext"><span> </span></div>
+		    </div>
+
+		    <link rel="stylesheet" href="css/fwslider.css" media="all">
+			<script src="js/css3-mediaqueries.js"></script>
+			<script src="js/fwslider.js"></script>
+		</div>
+		<div class="clear"> </div>
+		<!----//End-image-slider---->
+        <!--<div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="��վģ��">��վģ��</a></div>-->
+		<!----start-content--->
+		<div class="content">
+			<!--- start-产品s---->
+			<div class="top-grids" id="services">
+				<div class="wrap">
+					<div class="top-grid">
+						<a class="icon monitor" href="#"> </a>
+						<a href="#">产品1</a>
+						<p>1111111111111111111111111111111111</p>
+					</div>
+					<div class="top-grid">
+						<a class="icon target" href="#"> </a>
+						<a href="#">产品1</a>
+						<p>2222222222222222222222222222222222222</p>
+					</div>
+					<div class="top-grid">
+						<a class="icon photo" href="#"> </a>
+						<a href="#">产品3</a>
+						<p>3333333333333333</p>
+					</div>
+					<div class="top-grid top-grid1">
+						<label> </label>
+						<a class="icon colors" href="#"> </a>
+						<a href="#">产品4</a>
+						<p>4444444444444444444444444444444444444444</p>
+					</div>
+					<div class="top-grid top-grid1">
+						<label> </label>
+						<a class="icon man" href="#"> </a>
+						<a href="#">产品5</a>
+						<p>55555555555555555555555555555555555555555</p>
+					</div>
+					<div class="top-grid top-grid1">
+						<label> </label>
+						<a class="icon spare" href="#"> </a>
+						<a href="#">产品6</a>
+						<p>6666666666666666666666666666666666666666666</p>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<!--- //End-产品---->
+
+			<!---start-关于我们---->
+			<div class="process-grids" id="process">
+				<div class="wrap">
+					<div class="process-top-grid">
+						<div class="process-top-grid-left">
+							<h3>我们是做什么的？</h3>
+                            <article>我们是做什么的？我们是做什么的？我们是做什么的？我们是做什么的？我们是做什么的？我们是做什么的？我们是做什么的？我们是做什么的？我们是做什么的？</article>
+						</div>
+						<div class="process-top-grid-right">
+							<a herf="#"><img src="images/divices.png" title="divices" /></a>
+						</div>
+						<div class="clear"> </div>
+					</div>
+					<div class="process-bottom-grid">
+						<div class="process-bottom-grid-left">
+							<img src="images/video.jpg" title="video-name" />
+						</div>
+						<div class="process-bottom-grid-right">
+							<h3>我们将来会做什么?</h3>
+                            <article>我们将来会做什么?我们将来会做什么?我们将来会做什么?我们将来会做什么?我们将来会做什么?我们将来会做什么?我们将来会做什么?我们将来会做什么?我们将来会做什么?</article>
+							<ul class="process-btns">
+								<li><a class="apple" href="#"><span> </span> App Store</a></li>
+								<li><a class="googleplay" href="#"><span> </span>Google Play</a></li>
+								<li><a class="download" href="#">Download Now</a></li>
+							</ul>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+			</div>
+			<!---//End-关于我们---->
+
+			<!---start-我们的团队--->
+			<div class="portfolio" id="portfolio">
+				<div class="recent-works">
+				<div class="recent-works-head">
+					<h3>我们的团队</h3>
+				</div>
+				<div class="wrap">
+				  <!---start-mfp ---->
+			      <div id="small-dialog1" class="mfp-hide">
+				<div class="pop_up">
+					<h2>小A</h2>
+					<p class="para">小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A小A</p>
+				</div>
+			</div>
+                  <div id="small-dialog2" class="mfp-hide">
+                    <div class="pop_up">
+                        <h2>小B</h2>
+                        <p class="para">BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBbBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBbBB</p>
+                    </div>
+            </div>
+                  <div id="small-dialog3" class="mfp-hide">
+                  <div class="pop_up">
+                        <h2>小C</h2>
+                        <p class="para">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+                  </div>
+            </div>
+                  <div id="small-dialog4" class="mfp-hide">
+                  <div class="pop_up">
+                       <h2>小</h2>
+                       <p class="para">DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</p>
+                  </div>
+            </div>
+                  <div id="small-dialog5" class="mfp-hide">
+                  <div class="pop_up">
+                       <h2>小</h2>
+                       <p class="para">EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</p>
+                  </div>
+            </div>
+                  <div id="small-dialog6" class="mfp-hide">
+                  <div class="pop_up">
+                       <h2>小F</h2>
+                       <p class="para">FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</p>
+                  </div>
+            </div>
+                 <!---end-mfp ---->
+				 <div class="gallery">
+					<div class="container">
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon logo web">成员</span></li>
+						<li><span class="filter" data-filter="app web">职位1</span></li>
+						<li><span class="filter" data-filter="icon web card">职位2</span></li>
+						<li><span class="filter" data-filter="web app icon card">职位3</span></li>
+						<li><span class="filter" data-filter="icon app web logo">职位4</span></li>
+					</ul>
+					<div id="portfoliolist" style="">
+						<div class="portfolio logo mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">				
+								<a class="popup-with-zoom-anim" href="#small-dialog1">
+									<img src="images/p1.png" alt="Image 2" style="top: 0px;">
+								</a>
+							</div>
+						</div>				
+						<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">			
+								<a class="popup-with-zoom-anim" href="#small-dialog2">
+									<img src="images/p2.png" alt="Image 2" style="top: 0px;">
+								</a>
+							</div>
+						</div>		
+						<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">						
+								<a class="popup-with-zoom-anim" href="#small-dialog3">
+									<img src="images/p3.png" alt="Image 2" style="top: 0px;">
+								</a>
+							</div>
+						</div>				
+						<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">			
+								<a class="popup-with-zoom-anim" href="#small-dialog4">
+									<img src="images/p4.png" alt="Image 2" style="top: 0px;">
+								</a>
+							</div>
+						</div>	
+									
+						<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">
+								<a class="popup-with-zoom-anim" href="#small-dialog5">
+									<img src="images/p5.png" alt="Image 2" style="top: 0px;">
+								</a>
+							</div>
+						</div>			
+						
+						<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">			
+								<a class="popup-with-zoom-anim" href="#small-dialog6">
+									<img src="images/p1.png" alt="Image 2" style="top: 0px;">
+								</a>
+							</div>
+						</div>	
+					</div>
+				</div><!-- container -->
+				<div class="clear"> </div>
+				<!---start-gallery-script----->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+					$(function () {
+						var filterList = {
+							init: function () {
+								// MixItUp plugin
+								// http://mixitup.io
+								$('#portfoliolist').mixitup({
+									targetSelector: '.portfolio',
+									filterSelector: '.filter',	
+									effects: ['fade'],
+									easing: 'snap',
+									// call the hover effect
+									onMixEnd: filterList.hoverEffect()
+								});				
+							},
+							hoverEffect: function () {
+							}
+						};
+						// Run the show!
+						filterList.init();
+					});	
+					</script>
+					<!-- Add fancyBox main JS and CSS files -->
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+							<script>
+								$(document).ready(function() {
+									$('.popup-with-zoom-anim').magnificPopup({
+										type: 'inline',
+										fixedContentPos: false,
+										fixedBgPos: true,
+										overflowY: 'auto',
+										closeBtnInside: true,
+										preloader: false,
+										midClick: true,
+										removalDelay: 300,
+										mainClass: 'my-mfp-zoom-in'
+								});
+							});
+							</script>
+				<!---//End-gallery-script----->
+				<div class="clear"> </div>
+				</div>
+			</div>
+			</div>
+			</div>
+			<!---//End-portfolioi--->
+			<!---start-priceing-tabels---->
+			<div class="pricing-plans" id="price">
+				<div class="wrap">
+					<div class="pricing-plans-head">
+						<p>有优惠</p>
+					</div>
+					<div class="pricing-grids">
+						<div class="pricing-grid">
+							<h3><i><label>￥</label>0</i></h3>
+							<ul>
+								<li><a href="#">Free Support</a></li>
+								<li><a href="#">Small Discount</a></li>
+								<li><a href="#">Limited Space</a></li>
+								<li><a href="#">Other Stuff</a></li>
+							</ul>
+							.<div class="cart">
+								<a class="popup-with-zoom-anim" href="#small-dialog1">下载</a>
+							</div>
+						</div>
+						<div class="pricing-grid">
+							<h3><i><label>￥</label>29</i></h3>
+							<ul>
+								<li><a href="#">Free Support</a></li>
+								<li><a href="#">Small Discount</a></li>
+								<li><a href="#">Limited Space</a></li>
+								<li><a href="#">Other Stuff</a></li>
+							</ul>
+							<div class="cart">
+								<a class="popup-with-zoom-anim" href="#small-dialog1">下载</a>
+							</div>
+						</div>
+						<div class="pricing-grid">
+							<h3><i><label>￥</label>59</i></h3>
+							<ul>
+								<li><a href="#">Free Support</a></li>
+								<li><a href="#">Small Discount</a></li>
+								<li><a href="#">Limited Space</a></li>
+								<li><a href="#">Other Stuff</a></li>
+							</ul>
+							<div class="cart">
+								<a class="popup-with-zoom-anim" href="#small-dialog1">下载</a>
+							</div>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"> </div>
+			<!---//End-priceing-tabels---->
+
+			<!---start-contact---->
+			<div class="contact" id="contact">
+				<div class="contact-head">
+					<h3>联系我们</h3>
+				</div>
+				<div class="wrap">
+					<div class="contact-info">
+						<div class="getin-touch">
+							<h4>GET IN TOUCH</h4>
+							<ul>
+								<li><a class="facebook" href="#"><span> </span></a></li>
+								<li><a class="twitter" href="#"><span> </span></a></li>
+								<li><a class="googlepluse" href="#"><span> </span></a></li>
+								<div class="clear"> </div>
+							</ul>
+							<label>Subscribe to our newsletter to stay updated with what's new</label>
+						</div>
+						<div class="copy-right">
+						    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!---//End-contact---->
+		</div>
+		<!----//End-content--->
+		<!----//End-wrap---->
+	</body>
+</html>
+
